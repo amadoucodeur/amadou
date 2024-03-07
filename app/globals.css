@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 33, 33, 33;
+    --background-end-rgb: 33, 33, 44;
   }
 }
 
@@ -31,3 +31,39 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+
+
+
+@keyframes battement {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.coeur {
+  animation: battement 5s infinite;
+}
+
+
+
+
+
+/* Pour les navigateurs WebKit (Safari, Chrome) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Pour les navigateurs basés sur Firefox */
+html {
+  scrollbar-width: none;
+}
+
