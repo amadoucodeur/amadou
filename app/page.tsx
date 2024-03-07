@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Image from "next/image";
 import Link from "next/link";
 import { BsTelephoneFill } from "react-icons/bs";
@@ -21,7 +23,7 @@ const archivo_Black = Archivo_Black({ subsets: ["latin"], weight: "400" });
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex items-center justify-center gap-6 min-h-screen">
+      <div className="flex flex-wrap items-center justify-center gap-6 min-h-screen">
         <div className="p-0 bg-white rounded-full coeur">
           <Image
             alt="/profile.png"
@@ -38,7 +40,7 @@ export default function Home() {
             <span
               className={clsx(
                 archivo_Black.className,
-                "font-bold text-8xl block text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-white to-red-500 py-4"
+                "font-bold text-4xl md:text-8xl block text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-white to-red-500 py-4"
               )}
             >
               Amadou Coulibaly
@@ -53,16 +55,14 @@ export default function Home() {
             passionné par la technologie, toujours en quête d'apprentissage et
             d'amélioration.
           </p>
-          <div className="flex gap-2">
-            <Button className="">
-              TÉLÉCHARGER CV
-            </Button>
+          <div className="flex flex-wrap gap-2">
             <Button variant="outline" className="">
               Blog
             </Button>
             <Button variant="outline" className="">
               Utils IA
             </Button>
+            <Button className="">TÉLÉCHARGER CV</Button>
           </div>
           <div className="flex gap-2">
             <Link
@@ -85,7 +85,7 @@ export default function Home() {
               <PiGithubLogoFill />
             </Link>
           </div>
-          <div className="flex gap-2 ">
+          <div className="flex flex-wrap gap-2 ">
             <p className="flex items-center gap-2 pr-4 rounded-full border border-solid border-white h-10">
               <BsTelephoneFill
                 size={50}
