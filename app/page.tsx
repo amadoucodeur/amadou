@@ -15,6 +15,7 @@ import {
 } from "next/font/google";
 import { clsx } from "clsx";
 import { Button } from "@/components/ui/button";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const anton = Anton({ subsets: ["latin"], weight: "400" });
 const orbitron = Orbitron({ subsets: ["latin"], weight: "500" });
@@ -85,7 +86,7 @@ export default function Home() {
               <PiGithubLogoFill />
             </Link>
           </div>
-          <div className="flex flex-wrap gap-2 ">
+          <div className="flex flex-wrap gap-4 ">
             <p className="flex items-center gap-2 pr-4 rounded-full border border-solid border-white h-10">
               <BsTelephoneFill
                 size={50}
@@ -100,6 +101,77 @@ export default function Home() {
               />
               amadoucodeur@gmail.com
             </p>
+          </div>
+        </div>
+        <p>---------------------------------</p>
+      </div>
+      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left gap-4">
+        <div className="">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Expertises
+          </h2>
+          <p>Here are some of the skills I possess.</p>
+        </div>
+
+        <div className="container">
+          <div className="box">
+            <span className="title">Next.JS</span>
+            <div>
+              <strong>FrontEnd</strong>
+              <p>BAckend</p>
+              <span>VALID</span> <span>01/28</span>
+              <TbBrandNextjs size={70} />
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="box">
+            <span className="title">React.JS</span>
+            <div>
+              <strong>JOE WATSON SBF</strong>
+              <p>0000 000 000 0000</p>
+              <span>VALID</span> <span>01/28</span>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="box">
+            <span className="title">JavaScript</span>
+            <div>
+              <strong>JOE WATSON SBF</strong>
+              <p>0000 000 000 0000</p>
+              <span>VALID</span> <span>01/28</span>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="box">
+            <span className="title">Python</span>
+            <div>
+              <strong>JOE WATSON SBF</strong>
+              <p>0000 000 000 0000</p>
+              <span>VALID</span> <span>01/28</span>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="box">
+            <span className="title">HTML CSS</span>
+            <div>
+              <strong>JOE WATSON SBF</strong>
+              <p>0000 000 000 0000</p>
+              <span>VALID</span> <span>01/28</span>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="box">
+            <span className="title">GLASS EFFECT</span>
+            <div>
+              <strong>JOE WATSON SBF</strong>
+              <p>0000 000 000 0000</p>
+              <span>VALID</span> <span>01/28</span>
+            </div>
           </div>
         </div>
       </div>
