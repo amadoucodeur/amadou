@@ -41,7 +41,7 @@ export default function Home() {
             <span
               className={clsx(
                 archivo_Black.className,
-                "font-bold text-4xl md:text-8xl block text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-white to-red-500 py-4"
+                "font-bold text-6xl md:text-8xl block text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-white to-red-500 py-4"
               )}
             >
               Amadou Coulibaly
