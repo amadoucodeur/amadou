@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-/* 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -15,6 +15,12 @@
     --background-end-rgb: 33, 33, 44;
   }
 } */
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 33, 33, 33;
+  --background-end-rgb: 33, 33, 44;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -32,11 +38,6 @@ body {
   }
 }
 
-
-
-
-
-
 @keyframes battement {
   0% {
     transform: scale(1);
@@ -53,10 +54,6 @@ body {
   animation: battement 5s infinite;
 }
 
-
-
-
-
 /* Pour les navigateurs WebKit (Safari, Chrome) */
 ::-webkit-scrollbar {
   display: none;
@@ -66,8 +63,6 @@ body {
 html {
   scrollbar-width: none;
 }
-
-
 
 .container {
   color: white;
