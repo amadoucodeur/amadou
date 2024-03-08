@@ -103,8 +103,8 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <p>-----------------------------------------------------------------</p>
       </div>
-      <p>---------------------------------</p>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left gap-4">
         <div className="">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
