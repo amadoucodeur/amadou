@@ -136,9 +136,9 @@ export default function Home() {
         </div>
         <div className="container">
           <div className="box">
-            <span className="title">JavaScript</span>
+            <span className="title">JS</span>
             <div>
-              <strong>JOE WATSON SBF</strong>
+              <strong>JAVASCRIPT</strong>
               <p>0000 000 000 0000</p>
               <span>VALID</span> <span>01/28</span>
             </div>
