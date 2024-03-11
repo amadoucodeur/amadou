@@ -35,13 +35,13 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex flex-col justify-start gap-6">
+        <div className="flex flex-col justify-start gap-6 mb-10">
           <h1 className="text-xl">
             Hello, Je suis{" "}
             <span
               className={clsx(
                 archivo_Black.className,
-                "font-bold text-6xl md:text-8xl block text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-white to-red-500 py-4"
+                "font-bold text-6xl md:text-7xl lg:text-8xl block text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-white to-red-500 py-4"
               )}
             >
               Amadou Coulibaly
@@ -103,7 +103,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <p>-----------------------------------------------------------------</p>
+        <p className="text-center my-10">-----------------------------------------------------------------</p>
       </div>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left gap-4">
         <div className="">
