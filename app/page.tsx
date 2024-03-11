@@ -57,13 +57,13 @@ export default function Home() {
             d'amélioration.
           </p>
           <div className="flex flex-wrap gap-2">
-            <Button variant="outline" className="">
+            <Button variant="outline" className="hover:bg-[#06152c] hover:text-white  transition-colors ease-in-out duration-300">
               Blog
             </Button>
-            <Button variant="outline" className="">
+            <Button variant="outline" className="hover:bg-[#06152c] hover:text-white  transition-colors ease-in-out duration-300">
               Utils IA
             </Button>
-            <Button className="">TÉLÉCHARGER CV</Button>
+            <Button className="hover:bg-white hover:text-black  transition-colors ease-in-out duration-300">TÉLÉCHARGER CV</Button>
           </div>
           <div className="flex gap-2">
             <Link
@@ -90,14 +90,14 @@ export default function Home() {
             <p className="flex items-center gap-2 pr-4 rounded-full border border-solid border-white h-10">
               <BsTelephoneFill
                 size={50}
-                className="p-4 rounded-full bg-white text-black"
+                className="p-4 rounded-full bg-white text-black hover:bg-[#06152c] hover:text-white  transition-colors ease-in-out duration-300"
               />
               (+225) 0500026690
             </p>
             <p className="flex items-center gap-2 pr-4 rounded-full border border-solid border-white h-10">
               <MdEmail
                 size={50}
-                className="p-4 rounded-full bg-white text-black"
+                className="p-4 rounded-full bg-white text-black hover:bg-[#06152c] hover:text-white  transition-colors ease-in-out duration-300"
               />
               amadoucodeur@gmail.com
             </p>
