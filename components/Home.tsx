@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import clsx from 'clsx'
 import { Anton, Archivo_Black, Orbitron } from 'next/font/google';
 import Image from 'next/image'
