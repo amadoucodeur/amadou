@@ -17,9 +17,8 @@ export default function Services() {
           <div className="box">
             <span className="title">Vercel</span>
             <div>
-              <strong>WEB FULLSTACK</strong>
-              {/* <p>Site Web / Web App / SaaS</p> */}
-              <span>Basé sur React.JS</span>
+            <strong>DÉPOIEMENT PRÊT À L'EMPLOI</strong>
+              <span>Convivial, Performant</span>
               <TbBrandVercel size={70} />
             </div>
           </div>
@@ -28,9 +27,8 @@ export default function Services() {
           <div className="box">
             <span className="title">Supabase</span>
             <div>
-              <strong>WEB FULLSTACK</strong>
-              {/* <p>Site Web / Web App / SaaS</p> */}
-              <span>Basé sur React.JS</span>
+              <strong>BACK-END OPEN SOURCE</strong>
+              <span>Puissant, Flexible</span>
               <TbBrandSupabase size={70} />
             </div>
           </div>
@@ -39,9 +37,8 @@ export default function Services() {
           <div className="box">
             <span className="title">Firebase</span>
             <div>
-              <strong>WEB FULLSTACK</strong>
-              {/* <p>Site Web / Web App / SaaS</p> */}
-              <span>Basé sur React.JS</span>
+              <strong>BACK-END SANS SERVEUR</strong>
+              <span>Évolutif, Unifié</span>
               <TbBrandFirebase size={70} />
             </div>
           </div>
@@ -50,7 +47,7 @@ export default function Services() {
           <div className="box">
             <span className="title">Git/ Github</span>
             <div>
-              {/* <strong>WEB FULLSTACK</strong> */}
+              <strong>VERSIONING, COLLABORATION</strong>
               <span>Basé sur React.JS</span>
               <div className="flex">
 

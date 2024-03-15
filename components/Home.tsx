@@ -46,9 +46,9 @@ export default function Home() {
           </h1>
 
           <p className="max-w-[400px]">
-            Je suis Amadou Coulibaly, développeur fullstack Web & Mobile
-            passionné par la technologie, toujours en quête d'apprentissage et
-            d'amélioration.
+          Passionné par l'apprentissage et l'innovation technologique
+Engagé à créer des solutions efficaces et adaptables
+Concentré sur la satisfaction du client et la résolution de problèmes
           </p>
           <div className="flex flex-wrap gap-2">
             <Button variant="outline" className="hover:bg-[#06152c] hover:text-white  transition-colors ease-in-out duration-300">

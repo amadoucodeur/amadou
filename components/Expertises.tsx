@@ -9,16 +9,16 @@ export default function Expertises() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Expertises
           </h2>
-          <p>Here are some of the skills I possess.</p>
+          <p>Here are some of the areas of expertise I possess.</p>
         </div>
 
         <div className="container">
           <div className="box">
             <span className="title">Next.JS</span>
             <div>
-              <strong>WEB FULLSTACK</strong>
+              <strong>FRAMEWORK WEB</strong>
               {/* <p>Site Web / Web App / SaaS</p> */}
-              <span>Basé sur React.JS</span>
+              <span>Productif, Universel</span>
               <TbBrandNextjs size={70} />
             </div>
           </div>
@@ -27,8 +27,8 @@ export default function Expertises() {
           <div className="box">
             <span className="title">React.JS</span>
             <div>
-              <strong>WEB FRONTEND</strong>
-              <span>Basé sur JavaScript / TypScript</span>
+              <strong>UI COMPOSABLE</strong>
+              <span>Adaptable, Performant</span>
               <TbBrandReact size={70} />
 
             </div>
@@ -38,8 +38,8 @@ export default function Expertises() {
           <div className="box">
             <span className="title small-title">JavaScript TypeScript</span>
             <div>
-              <strong></strong>
-              <span>Langage de programmation</span>
+              <strong>LANGAGE WEB, TYPÉ</strong>
+              <span>Interactif, Dynamique, Sécurité</span>
               <div className="flex">
 
               <TbBrandJavascript size={70} />
@@ -53,8 +53,8 @@ export default function Expertises() {
           <div className="box">
             <span className="title">Python</span>
             <div>
-              <strong>JOE WATSON SBF</strong>
-              <span>Langage de programmation</span>
+              <strong>LANGAGE POLYVALENT</strong>
+              <span>Complet, Robuste</span>
               <TbBrandPython size={70} />
 
             </div>
@@ -64,8 +64,8 @@ export default function Expertises() {
           <div className="box">
             <span className="title">HTML/ CSS</span>
             <div>
-              <strong>WEB FRONTEND</strong>
-              <span>Balisage & Style</span>
+              <strong>STRUCTURE & STYLE WEB</strong>
+              <span>Fondamental, Structuré</span>
               <div className="flex">
               <TbBrandHtml5 size={70} />
               <TbBrandCss3 size={70} />
@@ -76,10 +76,10 @@ export default function Expertises() {
         </div>
         <div className="container">
           <div className="box">
-            <span className="title">Tailwind</span>
+            <span className="title">Tailwind CSS</span>
             <div>
-              <strong>STYLE</strong>
-              <span>VALID</span>
+              <strong>DESIGN CSS</strong>
+              <span>Flexible, Expressif</span>
               <TbBrandTailwind size={70} />
 
             </div>
@@ -89,8 +89,8 @@ export default function Expertises() {
           <div className="box">
             <span className="title">Node.JS</span>
             <div>
-              <strong>WEB BACKEND</strong>
-              <span>VALID</span>
+              <strong>JAVASCRIPT SERVEUR</strong>
+              <span>Rapide, Scala</span>
               <TbBrandNodejs size={70} />
 
             </div>
@@ -100,8 +100,8 @@ export default function Expertises() {
           <div className="box">
             <span className="title">Django</span>
             <div>
-              <strong>WEB BACKEND</strong>
-              <span>VALID</span>
+              <strong>FRAMEWORK PYTHON</strong>
+              <span>Complet, Robuste</span>
               <TbBrandDjango size={70} />
 
             </div>
@@ -111,8 +111,8 @@ export default function Expertises() {
           <div className="box">
             <span className="title">Ract Native</span>
             <div>
-              <strong>xxx</strong>
-              <span>MOBILE IOS / ANDROID</span>
+              <strong>APPS MOBILES</strong>
+              <span>Multi-plateforme, Réutilisable</span>
               <TbBrandReactNative size={70} />
 
             </div>
