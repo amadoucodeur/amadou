@@ -1,7 +1,7 @@
-run:
+r:
 	pnpm run dev 
 
-build:
+b:
 	pnpm run build
 
 push:

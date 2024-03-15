@@ -18,7 +18,7 @@ const archivo_Black = Archivo_Black({ subsets: ["latin"], weight: "400" });
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-[1fr] lg:grid-cols-[1fr_2fr] gap-10">
+    <div id='home' className="grid grid-cols-[1fr] lg:grid-cols-[1fr_2fr] gap-10">
         <div className="p-0 w-full h-auto coeur flex justify-center items-center">
           <Image
             alt="/profile.png"
@@ -46,7 +46,7 @@ export default function Home() {
           </h1>
 
           <p className="max-w-[400px]">
-            Je suis Amadou Coulibaly, développeur web fullstack et mobile
+            Je suis Amadou Coulibaly, développeur fullstack Web & Mobile
             passionné par la technologie, toujours en quête d'apprentissage et
             d'amélioration.
           </p>
@@ -97,8 +97,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-
-        <p className="col-span-1 lg:col-span-2 text-center my-20">-----------------------------------------------------------------</p>
     </div>
   )
 }
