@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import { TbBrandCss3, TbBrandDjango, TbBrandHtml5, TbBrandJavascript, TbBrandNextjs, TbBrandNodejs, TbBrandPython, TbBrandReact, TbBrandReactNative, TbBrandTailwind, TbBrandTypescript } from "react-icons/tb";
 

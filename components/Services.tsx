@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import { TbBrandFirebase, TbBrandGit, TbBrandGithub, TbBrandSupabase, TbBrandVercel } from "react-icons/tb";
 
