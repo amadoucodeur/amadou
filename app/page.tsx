@@ -20,6 +20,8 @@ import Home from "@/components/Home"
 import Separator from "@/components/Separator";
 import Expertises from "@/components/Expertises";
 import Services from "@/components/Services";
+import ContactForm from "@/components/ContactForm";
+import Pricing from "@/components/Princing";
 
 
 export default function Main() {
@@ -31,6 +33,9 @@ export default function Main() {
       <Separator/>
       <Services/>
       <Separator/>
+      <Pricing/>
+      <Separator/>
+      <ContactForm/>
     </main>
   );
 }
