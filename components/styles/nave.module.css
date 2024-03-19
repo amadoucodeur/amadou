@@ -1,0 +1,61 @@
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 73, 144);
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  /* width: 40px;
+  height: 250px; */
+  min-height: 250px;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 20px 1px #ffbb763f;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+  background-color: #06152c;
+  color: #06152c;
+  animation: dance 2s infinite;
+}
+.buttonContainer:hover {
+  height: 300px;
+  transition: all 0.5s;
+  animation: none;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: 0 !important;
+  border: 0 !important;
+  /* width: 50px;
+  height: 50px; */
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+@keyframes dance {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-5px) rotate(3deg);
+    opacity: 0.9;
+  }
+}

@@ -22,11 +22,13 @@ import Expertises from "@/components/Expertises";
 import Services from "@/components/Services";
 import ContactForm from "@/components/ContactForm";
 import Pricing from "@/components/Princing";
+import Nave from "@/components/Nave";
 
 
 export default function Main() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Nave/>
       <Home/>
       <Separator/>
       <Expertises/>
