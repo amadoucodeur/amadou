@@ -48,7 +48,9 @@
     scale: 0.95;
   }
   
-  .form-container .form {
+  .form-container  {
+    max-width: 100%;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -69,7 +71,7 @@
   }
   
   .form-container .form-group input {
-    width: 100%;
+    /* width: 100%; */
     padding: 12px 16px;
     border-radius: 8px;
     color: #fff;
@@ -79,7 +81,7 @@
   }
   
   .form-container .form-group textarea {
-    width: 100%;
+    /* width: 100%; */
     padding: 12px 16px;
     border-radius: 8px;
     resize: none;
@@ -110,10 +112,10 @@
     justify-content: center;
     align-self: flex-start;
     font-family: inherit;
-    color: #717171;
+    color: #06152c;
     font-weight: 600;
     width: 40%;
-    background: #313131;
+    background: #fff;
     border: 1px solid #414141;
     padding: 12px 16px;
     font-size: inherit;
@@ -124,8 +126,9 @@
   }
   
   .form-container .form-submit-btn:hover {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #06152c;
+    border-color: #06152c;
+    color: #fff;
   }
   
   

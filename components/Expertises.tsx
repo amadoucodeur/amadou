@@ -37,6 +37,17 @@ export default function Expertises() {
         </div>
         <div className="container">
           <div className="box">
+            <span className="title">Ract Native</span>
+            <div>
+              <strong>APPS MOBILES</strong>
+              <span>Multi-plateforme, Réutilisable</span>
+              <TbBrandReactNative size={70} />
+
+            </div>
+          </div>
+        </div>
+        {/* <div className="container">
+          <div className="box">
             <span className="title small-title">JavaScript TypeScript</span>
             <div>
               <strong>LANGAGE WEB, TYPÉ</strong>
@@ -107,18 +118,8 @@ export default function Expertises() {
 
             </div>
           </div>
-        </div>
-        <div className="container">
-          <div className="box">
-            <span className="title">Ract Native</span>
-            <div>
-              <strong>APPS MOBILES</strong>
-              <span>Multi-plateforme, Réutilisable</span>
-              <TbBrandReactNative size={70} />
-
-            </div>
-          </div>
-        </div>
+        </div> */}
+        
         
       </div>
   )
