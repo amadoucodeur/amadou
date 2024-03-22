@@ -44,7 +44,7 @@ import Experiances from "@/components/Experiances";
 
 export default function Main() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-20">
       <Nave />
       <Home />
       <Separator />
@@ -52,8 +52,8 @@ export default function Main() {
       <Separator />
       <Expertises />
       <Separator /> 
-      {/* <Services />
-      <Separator /> */}
+      <Services />
+      <Separator />
       <ContactForm />
     </main>
   );
