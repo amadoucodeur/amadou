@@ -41,6 +41,8 @@ import ContactForm from "@/components/ContactForm";
 import Pricing from "@/components/Princing";
 import Nave from "@/components/Nave";
 import Experiances from "@/components/Experiances";
+import Educations from "@/components/Educations";
+import LastProjects from "@/components/LastProjects";
 
 export default function Main() {
   return (
@@ -48,10 +50,12 @@ export default function Main() {
       <Nave />
       <Home />
       <Separator />
-      <Experiances/>
+      <Experiances />
+      <Separator />
+      <Educations />
       <Separator />
       <Expertises />
-      <Separator /> 
+      <Separator />
       <Services />
       <Separator />
       <ContactForm />
