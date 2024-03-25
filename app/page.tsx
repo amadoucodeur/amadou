@@ -43,11 +43,13 @@ import Nave from "@/components/Nave";
 import Experiances from "@/components/Experiances";
 import Educations from "@/components/Educations";
 import LastProjects from "@/components/LastProjects";
+import Brand from "@/components/Brand";
 
 export default function Main() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-20">
       <Nave />
+      <Brand />
       <Home />
       <Separator />
       <Experiances />
