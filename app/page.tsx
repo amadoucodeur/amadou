@@ -38,11 +38,9 @@ import Separator from "@/components/Separator";
 import Expertises from "@/components/Expertises";
 import Services from "@/components/Services";
 import ContactForm from "@/components/ContactForm";
-import Pricing from "@/components/Princing";
 import Nave from "@/components/Nave";
 import Experiances from "@/components/Experiances";
 import Educations from "@/components/Educations";
-import LastProjects from "@/components/LastProjects";
 import Brand from "@/components/Brand";
 
 export default function Main() {
