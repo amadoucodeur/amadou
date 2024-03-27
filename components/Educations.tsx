@@ -58,7 +58,7 @@ function EducationCard({
   text: string;
 }) {
   return (
-    <div className="flex gap-4 flex-row flex-wrap items-end border-slate-400 border-b-2 ">
+    <div className="flex gap-4 flex-row flex-wrap items-end border-slate-400 border-b-2 rounded-md">
       <PiCertificateBold size={32} className="bg-[#06152c] text-white rounded-full p-1" />
       <div className="flex flex-col">
         <p>{date}</p>
