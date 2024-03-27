@@ -1,5 +1,5 @@
 import React from "react";
-import { PiCertificateBold, PiEarDuotone } from "react-icons/pi";
+import { PiCertificateBold, PiCertificateFill, PiEarDuotone } from "react-icons/pi";
 
 export default function Educations() {
   return (
@@ -58,8 +58,8 @@ function EducationCard({
   text: string;
 }) {
   return (
-    <div className="flex gap-4 flex-row flex-wrap items-end border-slate-400 border-b-2 rounded-md">
-      <PiCertificateBold size={32} className="bg-[#06152c] text-white rounded-full p-1" />
+    <div className="flex gap-4 flex-row flex-wrap items-end border-red-400 border-b-2 rounded-md">
+      <PiCertificateFill size={32} className="bg-[#06152c] text-white rounded-full p-1" />
       <div className="flex flex-col">
         <p>{date}</p>
         <p className="font-bold">{title}</p>
