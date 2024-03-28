@@ -63,7 +63,7 @@ const ContactForm: React.FC = () => {
           <p className="flex items-center gap-2 pr-4 rounded-full border border-solid border-white h-10">
             <MdEmail
               size={50}
-              className="p-4 rounded-full bg-white text-black hover:bg-[#06152c] hover:text-white  transition-colors ease-in-out duration-300"
+              className="p-4  rounded-full bg-white text-black hover:bg-[#06152c] hover:text-white  transition-colors ease-in-out duration-300"
             />
             amadoucodeur@gmail.com
           </p>
