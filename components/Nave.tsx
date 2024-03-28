@@ -13,7 +13,7 @@ import { FaStar, FaTools } from "react-icons/fa";
 
 export default function Nave() {
   return (
-    <div className="fixed flex h-screen top-0 right-10 z-10 items-center">
+    <div className="fixed flex h-screen top-0 right-10 z-10 items-center invisible md:visible">
       <div
         className={clsx(
           style.buttonContainer,
