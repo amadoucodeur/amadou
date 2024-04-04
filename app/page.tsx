@@ -42,6 +42,7 @@ import Nave from "@/components/Nave";
 import Experiances from "@/components/Experiances";
 import Educations from "@/components/Educations";
 import Brand from "@/components/Brand";
+import Blog from "@/components/Blog";
 
 export default function Main() {
   return (
@@ -59,6 +60,8 @@ export default function Main() {
       <Services />
       <Separator />
       <ContactForm />
+      <Separator />
+      <Blog />
     </main>
   );
 }
